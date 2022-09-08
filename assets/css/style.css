@@ -1,0 +1,45 @@
+#con{
+    display: table;
+    
+   
+}
+.col{
+ 
+    display: table-cell;
+    text-align: center;
+    
+}
+.col:nth-child(2){
+    width: 100%;
+    position: relative;
+    top: -130px;
+}
+#garis{
+    position: absolute;
+    top: 200px;
+    width: 97%;
+    border-bottom: 2px black solid;
+}
+#daftar{
+    text-align: center;
+    position: relative;
+    top: -120px;
+    margin-bottom: -130px;
+}
+.btn-cetak{
+    padding: 10px;
+    background :#333;
+    color: white;
+    text-decoration: none;
+    transform: scale(1);
+    transition: .2s;
+    cursor: pointer;
+}
+.btn-cetak:hover{
+    background: white;
+    border: 1px solid #333;
+    color: black;
+}
+#foto{
+   
+}
